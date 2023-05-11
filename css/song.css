@@ -1,0 +1,26 @@
+.song-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .song-row {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .song-row li {
+    width: 23%;
+    text-align: center;
+  }
+  
+  .play-button {
+    background-color: #e83e8c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
